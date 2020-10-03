@@ -1,6 +1,16 @@
-module.exports = function(api) {
-  api.cache(true);
+module.exports = function (api) {
+  api.cache(true)
   return {
-    presets: ['babel-preset-expo'],
-  };
-};
+    plugins: [
+      ['module-resolver', {
+        root: ['./src'],
+        alias: {
+          'sodium-native': 'sodium-javascript',
+          'sodium-universal': 'sodium-javascript',
+          stream: 'readable-stream'
+        }
+      }]
+    ],
+    presets: ['babel-preset-expo']
+  }
+}
