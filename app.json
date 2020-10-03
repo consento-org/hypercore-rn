@@ -1,0 +1,12 @@
+{
+  "name": "hypercore-rn",
+  "displayName": "hypercore-rn",
+  "expo": {
+    "name": "hypercore-rn",
+    "slug": "hypercore-rn",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
