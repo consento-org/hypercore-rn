@@ -8,14 +8,17 @@
     "test": "jest"
   },
   "dependencies": {
+    "assert": "^2.0.0",
+    "dat-sdk": "^2.8.1",
     "events": "^3.2.0",
     "expo": "~39.0.2",
     "expo-splash-screen": "~0.6.2",
     "expo-status-bar": "~1.0.2",
     "expo-updates": "~0.3.2",
     "get-random-values-polypony": "^1.0.0",
-    "hypercore": "^9.5.4",
+    "hypercore": "^9.6.0",
     "hyperswarm-proxy-ws": "^1.2.0",
+    "path": "^0.12.7",
     "process": "^0.11.10",
     "random-access-memory": "^3.1.1",
     "react": "16.13.1",
@@ -27,12 +30,14 @@
     "react-native-unimodules": "~0.11.0",
     "react-native-web": "~0.13.12",
     "readable-stream": "^3.6.0",
-    "sodium-javascript": "consento-org/sodium-javascript#rn-tape"
+    "url": "^0.11.0",
+    "util": "^0.12.3"
   },
   "devDependencies": {
     "@babel/core": "~7.9.0",
     "babel-jest": "~25.2.6",
     "babel-plugin-module-resolver": "^4.0.0",
+    "babel-plugin-rewrite-require": "^1.14.5",
     "jest": "~25.2.6",
     "react-test-renderer": "~16.13.1"
   },

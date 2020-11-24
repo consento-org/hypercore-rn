@@ -11,3 +11,6 @@ if (typeof WebAssembly !== 'undefined' && global.WebAssembly) {
     global.WebAssembly = undefined
   }
 }
+
+// We should make sure there is a randombytes implementation
+require('get-random-values-polypony').polyfill()
